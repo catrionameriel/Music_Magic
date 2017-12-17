@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e561a63a-993a-4502-a5cc-d9f76c5de16a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Items/ISell.java" afterPath="$PROJECT_DIR$/src/main/java/Items/ISell.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Shop.java" afterPath="$PROJECT_DIR$/src/main/java/Shop.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" />
     </list>
@@ -89,22 +88,22 @@
       <file leaf-file-name="Shop.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Shop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="58" column="5" lean-forward="false" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+            <state relative-caret-position="964">
+              <caret line="90" column="9" lean-forward="false" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#809#810#0" expanded="true" />
-                <element signature="e#841#842#0" expanded="true" />
-                <element signature="e#889#890#0" expanded="true" />
-                <element signature="e#931#932#0" expanded="true" />
-                <element signature="e#962#963#0" expanded="true" />
-                <element signature="e#1005#1006#0" expanded="true" />
-                <element signature="e#1197#1198#0" expanded="true" />
-                <element signature="e#1241#1242#0" expanded="true" />
-                <element signature="e#1277#1278#0" expanded="true" />
-                <element signature="e#1309#1310#0" expanded="true" />
-                <element signature="e#1342#1343#0" expanded="true" />
-                <element signature="e#1376#1377#0" expanded="true" />
+                <element signature="e#900#901#0" expanded="true" />
+                <element signature="e#932#933#0" expanded="true" />
+                <element signature="e#980#981#0" expanded="true" />
+                <element signature="e#1022#1023#0" expanded="true" />
+                <element signature="e#1053#1054#0" expanded="true" />
+                <element signature="e#1096#1097#0" expanded="true" />
+                <element signature="e#1288#1289#0" expanded="true" />
+                <element signature="e#1332#1333#0" expanded="true" />
+                <element signature="e#1368#1369#0" expanded="true" />
+                <element signature="e#1400#1401#0" expanded="true" />
+                <element signature="e#1433#1434#0" expanded="true" />
+                <element signature="e#1467#1468#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,16 +122,16 @@
       <file leaf-file-name="ShopTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ShopTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="62" column="26" lean-forward="false" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+            <state relative-caret-position="810">
+              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#533#534#0" expanded="true" />
                 <element signature="e#592#593#0" expanded="true" />
-                <element signature="e#1165#1166#0" expanded="true" />
-                <element signature="e#1228#1229#0" expanded="true" />
-                <element signature="e#1285#1286#0" expanded="true" />
-                <element signature="e#1341#1342#0" expanded="true" />
+                <element signature="e#975#976#0" expanded="true" />
+                <element signature="e#1038#1039#0" expanded="true" />
+                <element signature="e#1095#1096#0" expanded="true" />
+                <element signature="e#1151#1152#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -643,7 +642,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShopTest.canSellItem">
+  <component name="RunManager" selected="JUnit.All in MusicMagic_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -665,15 +664,15 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="ShopTest.canGetProfit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in MusicMagic_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="MusicMagic_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShopTest" />
-      <option name="METHOD_NAME" value="canGetProfit" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -826,19 +825,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetProfit" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetTillSize" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetProfitWithoutSelling" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ShopTest.canSellItem" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetProfitAfterSelling" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetTillSize" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetProfitWithoutSelling" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ShopTest.canSellItem" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetProfitAfterSelling" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.All in MusicMagic_test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ShopTest.canSellItem" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetProfitAfterSelling" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetProfitWithoutSelling" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetTillSize" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetProfit" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in MusicMagic_test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ShopTest.canSellItem" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetProfitAfterSelling" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetProfitWithoutSelling" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetTillSize" />
       </list>
     </recent_temporary>
   </component>
@@ -859,23 +858,23 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="All_in_MusicMagic_test - 2017.12.17 at 08h 38m 55s.xml">
+      <configuration name="All in MusicMagic_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_MusicMagic_test - 2017.12.17 at 08h 42m 03s.xml">
+      <configuration name="All in MusicMagic_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_MusicMagic_test - 2017.12.17 at 08h 45m 28s.xml">
+      <configuration name="All in MusicMagic_test" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="ShopTest_canGetProfitAfterSelling - 2017.12.17 at 08h 33m 32s.xml">
       <configuration name="ShopTest.canGetProfitAfterSelling" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ShopTest_canGetProfitAfterSelling - 2017.12.17 at 08h 34m 21s.xml">
       <configuration name="ShopTest.canGetProfitAfterSelling" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopTest_canGetProfitWithoutSelling - 2017.12.17 at 08h 16m 23s.xml">
-      <configuration name="ShopTest.canGetProfitWithoutSelling" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ShopTest_canGetProfitWithoutSelling - 2017.12.17 at 08h 32m 38s.xml">
       <configuration name="ShopTest.canGetProfitWithoutSelling" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShopTest_canGetTillSize - 2017.12.17 at 08h 15m 43s.xml">
-      <configuration name="ShopTest.canGetTillSize" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShopTest_canSellItem - 2017.12.17 at 08h 23m 25s.xml">
-      <configuration name="ShopTest.canSellItem" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ShopTest_canSellItem - 2017.12.17 at 08h 23m 48s.xml">
       <configuration name="ShopTest.canSellItem" configurationId="JUnit" />
@@ -903,7 +902,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287827" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287827" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -949,18 +948,18 @@
           <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
-            <element signature="e#1051#1052#0" expanded="true" />
-            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="false" />
+            <element signature="e#276#277#0" expanded="false" />
+            <element signature="e#321#322#0" expanded="false" />
+            <element signature="e#380#381#0" expanded="false" />
+            <element signature="e#428#429#0" expanded="false" />
+            <element signature="e#494#495#0" expanded="false" />
+            <element signature="e#692#693#0" expanded="false" />
+            <element signature="e#757#758#0" expanded="false" />
+            <element signature="e#946#947#0" expanded="false" />
+            <element signature="e#1008#1009#0" expanded="false" />
+            <element signature="e#1051#1052#0" expanded="false" />
+            <element signature="e#1118#1119#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -985,12 +984,12 @@
           <caret line="23" column="63" lean-forward="false" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="false" />
+            <element signature="e#321#322#0" expanded="false" />
+            <element signature="e#366#367#0" expanded="false" />
+            <element signature="e#431#432#0" expanded="false" />
+            <element signature="e#474#475#0" expanded="false" />
+            <element signature="e#546#547#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1188,6 +1187,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ShopTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1038#1039#0" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Items/ISell.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1196,40 +1211,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ShopTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="62" column="26" lean-forward="false" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#1165#1166#0" expanded="true" />
-            <element signature="e#1228#1229#0" expanded="true" />
-            <element signature="e#1285#1286#0" expanded="true" />
-            <element signature="e#1341#1342#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Shop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="58" column="5" lean-forward="false" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        <state relative-caret-position="964">
+          <caret line="90" column="9" lean-forward="false" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#962#963#0" expanded="true" />
-            <element signature="e#1005#1006#0" expanded="true" />
-            <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#1241#1242#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1309#1310#0" expanded="true" />
-            <element signature="e#1342#1343#0" expanded="true" />
-            <element signature="e#1376#1377#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#980#981#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#1096#1097#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+            <element signature="e#1332#1333#0" expanded="true" />
+            <element signature="e#1368#1369#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
+            <element signature="e#1433#1434#0" expanded="true" />
+            <element signature="e#1467#1468#0" expanded="true" />
           </folding>
         </state>
       </provider>

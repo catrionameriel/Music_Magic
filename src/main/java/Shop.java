@@ -1,4 +1,7 @@
+import Items.Accessories.Accessory;
+import Items.Accessories.Case;
 import Items.ISell;
+import Items.Instruments.Instrument;
 import Items.Item;
 
 
@@ -6,8 +9,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Shop {
-
-    private Shop shop;
 
     private String name;
     private ArrayList<ISell> allStock;
@@ -24,9 +25,9 @@ public class Shop {
         this.profit = profit;
         this.soldStock = new ArrayList<>();
         this.stock = new HashMap<>();
-        stock.put("Instruments", new ArrayList<Item>());
-        stock.put("Accessories", new ArrayList<Item>());
-        stock.put("Cases", new ArrayList<Item>());
+        stock.put("Instruments", new ArrayList<Instrument>());
+        stock.put("Accessories", new ArrayList<Accessory>());
+        stock.put("Cases", new ArrayList<Case>());
     }
 
     public String getName(){
@@ -58,7 +59,7 @@ public class Shop {
         return this.profit;
     }
 
-    public double calculateProfit() {
+    private double calculateProfit() {
         double total = 0;
         for(ISell item : soldStock){
             double markup = item.calculateMarkUp();
@@ -75,19 +76,19 @@ public class Shop {
             }
     }
 
-    public void addItemToHasHMap (ISell newInstrument, String listName){
-        ArrayList<ISell> instruments = stock.get(listName);
-        instruments.add(newInstrument);
+    public void addItemToHasHMap (ISell newItem, String listName){
+        ArrayList l = this.stock.get(listName);
+        l.add(newItem);
     }
 
     public int countInstrumentsinHashMap(String listName){
-        ArrayList<ISell> instruments = stock.get(listName);
-        return instruments.size();
+        ArrayList l = this.stock.get(listName);
+        return l.size();
     }
 
-    public void removeInstrumentfromHashMap(ISell instrument, String listName){
-        ArrayList<ISell> instruments = stock.get(listName);
-        instruments.remove(instrument);
+    public void removeInstrumentfromHashMap(ISell newItem, String listName){
+        ArrayList l = stock.get(listName);
+         l.remove(newItem);
     }
 
 }

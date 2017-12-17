@@ -40,13 +40,6 @@ public class ShopTest {
     }
 
     @Test
-    public void canCalculateProfit(){
-        shop.addItemToStock(violin);
-        shop.addItemToStock(trumpet);
-        assertEquals(250.00, shop.calculateProfit(), 0.01);
-    }
-
-    @Test
     public void canGetTillSize(){
         assertEquals(200.00, shop.getTillMoney(), 0.01);
     }
