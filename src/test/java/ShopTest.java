@@ -1,6 +1,7 @@
 import Items.ISell;
 import Items.Instruments.Trumpet;
 import Items.Instruments.Violin;
+import Items.Item;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -14,7 +15,7 @@ public class ShopTest {
 
     @Before
     public void before(){
-        shop = new Shop("Music Magic");
+        shop = new Shop("Music Magic", 200.00, 10.00);
         violin = new Violin(300.00, 500.00);
         trumpet = new Trumpet(450.00, 500.00);
     }
@@ -25,16 +26,63 @@ public class ShopTest {
     }
 
     @Test
+    public void canAddToStock(){
+        shop.addItemToStock(violin);
+        assertEquals(1, shop.countStock());
+    }
+
+    @Test
+    public void canRemoveFromStock(){
+        shop.addItemToStock(violin);
+        shop.addItemToStock(trumpet);
+        shop.removeItem(violin);
+        assertEquals(1, shop.countStock());
+    }
+
+    @Test
+    public void canCalculateProfit(){
+        shop.addItemToStock(violin);
+        shop.addItemToStock(trumpet);
+        assertEquals(250.00, shop.calculateProfit(), 0.01);
+    }
+
+    @Test
+    public void canGetTillSize(){
+        assertEquals(200.00, shop.getTillMoney(), 0.01);
+    }
+
+    @Test
+    public void canGetProfitWithoutSelling(){
+        assertEquals(10, shop.getProfit(), 0.01);
+    }
+
+    @Test
+    public void canGetProfitAfterSelling(){
+        shop.addItemToStock(trumpet);
+        shop.sellItem(trumpet);
+        assertEquals(60.00, shop.getProfit(), 0.01);
+    }
+
+    @Test
+    public void canSellItem(){
+        shop.addItemToStock(violin);
+        shop.addItemToStock(trumpet);
+        shop.sellItem(violin);
+        assertEquals(700.00, shop.getTillMoney(), 0.01);
+        assertEquals(210.00, shop.getProfit(), 0.01);
+    }
+
+    @Test
     public void canAddInstrument(){
-        shop.addItem(violin, "instruments");
-        assertEquals(1, shop.countInstruments());
+        shop.addItemToHasHMap(violin, "Instruments");
+        assertEquals(1, shop.countInstrumentsinHashMap("Instruments"));
     }
 
     @Test
     public void canRemoveInstrument(){
-        shop.addInstrument(violin);
-        shop.addInstrument(trumpet);
-        shop.removeInstrument(violin);
-        assertEquals(1, shop.countInstruments());
+        shop.addItemToHasHMap(violin, "Instruments");
+        shop.addItemToHasHMap(trumpet, "Instruments");
+        shop.removeInstrumentfromHashMap(violin, "Instruments");
+        assertEquals(1, shop.countInstrumentsinHashMap("Instruments"));
     }
 }
